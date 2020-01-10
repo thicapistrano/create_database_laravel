@@ -5,14 +5,14 @@ namespace App\Console\Commands;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\DB;
 
-class mysql extends Command
+class CreateDatabaseCommand extends Command
 {
     /**
      * The name and signature of the console command.
      *
      * @var string
      */
-    protected $signature = 'mysql:createdb {name?}';
+    protected $signature = 'mysql:make-database {name?}';
 
     /**
      * The console command description.
