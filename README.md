@@ -6,10 +6,10 @@
 Execute o seguinte comando na pasta do seu projeto
 
 ```bash
-php artisan make:command CreateDatabase
+php artisan make:command mysql
 ```
 
-Abra o arquivo "CreateDatabase" que você acabou de criar e copie o conteúdo do arquivo que está no repositório para ele
+Abra o arquivo "mysql" que você acabou de criar e copie o conteúdo do arquivo que está no repositório para ele
 
 
 ## Utilizar
