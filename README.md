@@ -1,28 +1,28 @@
-# Criar Banco de Dados no Laravel
+# Create Laravel Database
 
 
-## Configuração
+## Configuration
 
-Execute o seguinte comando na pasta do seu projeto
+Run the following command in your project folder
 
 ```bash
 php artisan make:command CreateDatabaseCommand
 ```
 
-Abra o arquivo "mysql" que você acabou de criar e copie o conteúdo do arquivo que está no repositório para ele
+Open the "mysql" file you just created and copy the contents of the file that is in the repository to it
 
 
-## Utilizar
+## Use
 
-Os dados de acesso ao banco de dados já devem estar configurados, caso não esteja, realize a configuração para continuar
+The database access data must already be configured, if not, perform the configuration to continue
 
 ```bash
 php artisan mysql:make-database "NOME_DO_BANCO"
 ```
 
-Após executar este comando o nome banco de dado foi configurado no seu arquivo .env e seu banco de dados foi criado
+After executing this command the database name was configured in your .env file and your database was created
 
-Agora é só utilizar seu novo banco de dados
+Now just use your new database
 
 Estas informações foram retiradas do [Stack Overflow](https://stackoverflow.com/questions/32191135/how-to-create-database-schema-table-in-laravel)
 
