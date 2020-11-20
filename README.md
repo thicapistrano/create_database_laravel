@@ -24,7 +24,7 @@ After executing this command the database name was configured in your .env file 
 
 Now just use your new database
 
-Estas informações foram retiradas do [Stack Overflow](https://stackoverflow.com/questions/32191135/how-to-create-database-schema-table-in-laravel)
+This information was taken from the [Stack Overflow](https://stackoverflow.com/questions/32191135/how-to-create-database-schema-table-in-laravel)
 
 
 ## License
